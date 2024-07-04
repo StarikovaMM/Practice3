@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1720091192 source:c:\users\stari\desktop\lab02\alice\practice3\main.cpp
+	<iostream>
+	<vector>
+	<string>
+
+1720092367 source:c:\users\stari\desktop\lab02\alice\practice3\histogram.cpp
+	"histogram.h"
+
+1720092443 c:\users\stari\desktop\lab02\alice\practice3\histogram.h
+	<vector>
+
