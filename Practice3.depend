@@ -10,3 +10,19 @@
 1720092443 c:\users\stari\desktop\lab02\alice\practice3\histogram.h
 	<vector>
 
+1720092367 source:c:\users\stari\desktop\Практика\practice3\histogram.cpp
+	"histogram.h"
+
+1720092443 c:\users\stari\desktop\Практика\practice3\histogram.h
+	<vector>
+
+1720092496 source:c:\users\stari\desktop\Практика\practice3\main.cpp
+	"histogram.h"
+	<iostream>
+	<vector>
+	<string>
+
+1720566465 source:c:\users\stari\desktop\Практика\practice3\test.cpp
+	"histogram.h"
+	<cassert>
+
