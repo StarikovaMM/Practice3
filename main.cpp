@@ -71,8 +71,7 @@ int main() {
 
     vector<string> colors(bin_count);
     for (size_t i = 0; i < bin_count; i++) {
-        cout << "Enter color for bin " << i + 1 << ": ";
-        cin >> colors[i];
+        colors[i] = input_color(i + 1);
     }
 
     const auto bins = make_histogram(numbers, bin_count);

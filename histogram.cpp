@@ -1,5 +1,6 @@
 #include "histogram.h"
 #include <iostream>
+#include <string>
 
 void find_minmax(const vector<double>& numbers, double& min, double& max) {
     if (numbers.empty()) return;
@@ -35,4 +36,11 @@ vector<size_t> make_histogram(const vector<double>& numbers, size_t bin_count) {
         bins[bin]++;
     }
     return bins;
+}
+
+string input_color(size_t bin_number) {
+    string color;
+    std::cout << "Enter color for bin " << bin_number << ": ";
+    std::cin >> color;
+    return color;
 }
