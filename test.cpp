@@ -1,5 +1,6 @@
 #include "histogram.h"
 #include <cassert>
+#include <vector>
 
 void test_positive() {
     double min = 0;
@@ -41,12 +42,20 @@ void test_empty() {
     assert(max == 0);
 }
 
+void test_inpur() {
+    vector<double> numbers = {1, 2, 3, 4, 5};
+    vector<size_t> expected = {2, 1, 2};
+    vector<size_t> res = make_histogram(numbers, 3);
+    assert(res == expected);
+}
+
 int main() {
     test_positive();
     test_negative();
     test_same_numbers();
     test_single_number();
     test_empty();
+    test_inpur();
 
     return 0;
 }
