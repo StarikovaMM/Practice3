@@ -40,7 +40,7 @@ vector<size_t> make_histogram(const vector<double>& numbers, size_t bin_count) {
 
 string input_color(size_t bin_number) {
     string color;
-    std::cout << "Enter color for bin " << bin_number << ": ";
+    //std::cout << "Enter color for bin " << bin_number << ": ";
     std::cin >> color;
     return color;
 }
